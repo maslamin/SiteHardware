@@ -13,7 +13,8 @@ class User{
     private $nom;
     private $prenom;
 
-    function __construct($aLogin, $aPassword, $aNom, $aPrenom){
+    public function __construct($aLogin, $aPassword, $aNom, $aPrenom){
+
         $this->login    = $aLogin;
         $this->password = $aPassword;
         $this->nom      = $aNom;
